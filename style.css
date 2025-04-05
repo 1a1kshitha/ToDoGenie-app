@@ -1,0 +1,59 @@
+head {
+    font-family: Arial, serif;
+    margin: 10px;
+    padding: 10px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: bisque;
+    font-size: larger;
+    color: brown;
+    padding: 1rem 0;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+nav ul {
+    display: flexbox;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    padding: 0px;
+}
+
+nav ul li a {
+    color: blue;
+    text-decoration: none;
+
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px;
+    list-style: none;
+}
+
+.Interests-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px;
+    list-style: none;
+}
+
+footer {
+    background: #222;
+    color: #aaa;
+    text-align: center;
+    padding: 1rem;
+}
